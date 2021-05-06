@@ -17,6 +17,7 @@ const config: NuxtConfig = {
     link: []
   },
   loading: { color: '#0c64c1' },
+  components: true,
   modules: [],
   plugins: [
     '~/plugins/truncate'
